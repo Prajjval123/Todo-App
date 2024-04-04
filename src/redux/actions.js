@@ -8,7 +8,7 @@ import {
   FILTER_TODOS,
   MARK_ALL_COMPLETED,
   UPDATE_SEARCH_TERM,
-} from './actionTypes';
+} from "./actionTypes";
 
 export const addTodo = (text) => ({
   type: ADD_TODO,

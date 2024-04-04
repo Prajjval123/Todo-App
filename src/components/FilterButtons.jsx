@@ -1,7 +1,7 @@
 // FilterButtons.jsx
-import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { filterTodos, markAllCompleted } from '../redux/actions';
+import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { filterTodos, markAllCompleted } from "../redux/actions";
 
 const FilterButtons = () => {
   const dispatch = useDispatch();
